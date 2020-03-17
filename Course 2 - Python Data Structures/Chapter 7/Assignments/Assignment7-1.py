@@ -10,5 +10,4 @@ except:
     quit()
 
 for line in fileHand :
-    line = line.rstrip()
-    print(line.upper())
+    print(line.rstrip().upper())
