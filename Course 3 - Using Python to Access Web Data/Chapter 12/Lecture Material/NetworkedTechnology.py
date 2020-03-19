@@ -1,5 +1,5 @@
 '''--Transport Control Protocol (TCP)--
-Built on top of IP (Internet Prot)
+Built on top of IP (Internet Port)
 Assume IP might lose some data - stores and retransmits data if it seems to be lost
 Handles "flow control" using a transmit window
 Provides a nice reliable pipe
