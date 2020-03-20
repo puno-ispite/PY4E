@@ -1,0 +1,11 @@
+<!--XML "Elements" (or Nodes)-->
+<people> <!--Tag-->
+    <person>
+        <name>Chuck</name>          <!--Simple Element-->
+        <phone>303 4456</phone>     <!---->
+    </person>
+    <person>                        <!--Complex-->
+        <name>Noah</name>
+        <phone>622 7421</phone> <!--(element or node)-->
+    </person>                       <!--Element-->
+</people> <!--Ending tag-->
