@@ -41,7 +41,6 @@ ctx.verify_mode = ssl.CERT_NONE
 url = input('Enter URL: ')
 soup = urllib.request.urlopen(url, context=ctx)
 data = soup.read()
-data.decode().strip()
 
 tree = ET.fromstring(data)
 lst = tree.findall('comments/comment')
