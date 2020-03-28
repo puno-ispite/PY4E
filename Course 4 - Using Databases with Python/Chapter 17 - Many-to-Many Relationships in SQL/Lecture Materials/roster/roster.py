@@ -37,12 +37,12 @@ if len(fname) < 1:
 #   [ "Mea", "si110", 0 ],
 
 str_data = open(fname).read()
-json_data = json.loads(str_data)
+json_data = json.loads(str_data) #an array of arrays
 
-for entry in json_data:
+for entry in json_data: #entry itself is a row
 
-    name = entry[0];
-    title = entry[1];
+    name = entry[0]; #name
+    title = entry[1]; #title
 
     print((name, title))
 
